@@ -67,6 +67,8 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/bin/thermal:system/bin/thermal \
  vendor/huawei/g700/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/huawei/g700/proprietary/bin/wlan_loader:system/bin/wlan_loader \
+ vendor/huawei/g700/proprietary/lib/liba3m.so:system/lib/liba3m.so \
+ vendor/huawei/g700/proprietary/lib/libacdk.so:system/lib/libacdk.so \
  vendor/huawei/g700/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
  vendor/huawei/g700/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/huawei/g700/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
