@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
-  vendor/huawei/g700/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
+ vendor/huawei/g700/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
  vendor/huawei/g700/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
  vendor/huawei/g700/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
  vendor/huawei/g700/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/vendor/hw/audio.a2dp.blueangel.so:system/vendor/hw/audio.a2dp.blueangel.so \
  vendor/huawei/g700/proprietary/vendor/hw/bluetooth.blueangel.so:system/vendor/hw/bluetooth.blueangel.so \
  vendor/huawei/g700/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+ vendor/huawei/g700/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
  vendor/huawei/g700/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
  vendor/huawei/g700/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
  vendor/huawei/g700/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -69,12 +70,20 @@ vendor/huawei/g700/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.d
 vendor/huawei/g700/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
 vendor/huawei/g700/proprietary/lib/libaudio.a2dp.default.so:system/lib/libaudio.a2dp.default.so \
 vendor/huawei/g700/proprietary/lib/liba3m.so:system/lib/liba3m.so \
+vendor/huawei/g700/proprietary/lib/libacdk.so:system/lib/libacdk.so \
+vendor/huawei/g700/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
+vendor/huawei/g700/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
+vendor/huawei/g700/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
+vendor/huawei/g700/proprietary/lib/libasf.so:system/lib/libasf.so \
+vendor/huawei/g700/proprietary/lib/libasfextractor.so:system/lib/libasfextractor.so \
+vendor/huawei/g700/proprietary/lib/libatvctrlservice.so:system/lib/libatvctrlservice.so \
 vendor/huawei/g700/proprietary/lib/libAGifEncoder.so:system/lib/libAGifEncoder.so \
 vendor/huawei/g700/proprietary/lib/libaudio.a2dp.default.so:system/lib/libaudio.a2dp.default.so \
 vendor/huawei/g700/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
 vendor/huawei/g700/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
 vendor/huawei/g700/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
 vendor/huawei/g700/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
+vendor/huawei/g700/proprietary/lib/libc_malloc_debug_mtk.so:system/lib/libc_malloc_debug_mtk.so \
 vendor/huawei/g700/proprietary/lib/libdrmmtkplugin.so:system/lib/libdrmmtkplugin.so \
 vendor/huawei/g700/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
 vendor/huawei/g700/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
@@ -84,6 +93,7 @@ vendor/huawei/g700/proprietary/lib/libhwm.so:system/lib/libhwm.so \
 vendor/huawei/g700/proprietary/lib/libipod.so:system/lib/libipod.so \
 vendor/huawei/g700/proprietary/lib/libja3m.so:system/lib/libja3m.so \
 vendor/huawei/g700/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
+vendor/huawei/g700/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
 vendor/huawei/g700/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
 vendor/huawei/g700/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
 vendor/huawei/g700/proprietary/lib/libmpoencoder.so:system/lib/libmpoencoder.so \
@@ -91,6 +101,11 @@ vendor/huawei/g700/proprietary/lib/libmpodecoder.so:system/lib/libmpodecoder.so 
 vendor/huawei/g700/proprietary/lib/libmpojni.so:system/lib/libmpojni.so \
 vendor/huawei/g700/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
 vendor/huawei/g700/proprietary/lib/libmtkbtextspp.so:system/lib/libmtkbtextspp.so \
+vendor/huawei/g700/proprietary/lib/libmtk_vt_client.so:system/lib/libmtk_vt_client.so \
+vendor/huawei/g700/proprietary/lib/libmtk_vt_em.so:system/lib/libmtk_vt_em.so \
+vendor/huawei/g700/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+vendor/huawei/g700/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
+vendor/huawei/g700/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxAacDec.so:system/lib/libMtkOmxAacDec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxAacEnc.so:system/lib/libMtkOmxAacEnc.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
@@ -107,6 +122,7 @@ vendor/huawei/g700/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec
 vendor/huawei/g700/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+vendor/huawei/g700/proprietary/lib/libMtkOmxWmaDec.so:system/lib/libMtkOmxWmaDec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxVorbisDec.so:system/lib/libMtkOmxVorbisDec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
 vendor/huawei/g700/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
@@ -194,6 +210,7 @@ vendor/huawei/g700/proprietary/lib/libm4u.so:system/lib/libm4u.so \
 vendor/huawei/g700/proprietary/lib/libmtk_cipher.so:system/lib/libmtk_cipher.so \
 vendor/huawei/g700/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
 vendor/huawei/g700/proprietary/lib/libhevce_sb.ca7.android.so:system/lib/libhevce_sb.ca7.android.so \
+vendor/huawei/g700/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
 vendor/huawei/g700/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
 vendor/huawei/g700/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
 vendor/huawei/g700/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
@@ -229,6 +246,7 @@ vendor/huawei/g700/proprietary/bin/msensord:system/bin/msensord \
 vendor/huawei/g700/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
 vendor/huawei/g700/proprietary/bin/muxreport:system/bin/muxreport \
 vendor/huawei/g700/proprietary/bin/netcfg:system/bin/netcfg \
+vendor/huawei/g700/proprietary/bin/netd:system/bin/netd \
 vendor/huawei/g700/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
 vendor/huawei/g700/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
 vendor/huawei/g700/proprietary/bin/orientationd:system/bin/orientationd \
