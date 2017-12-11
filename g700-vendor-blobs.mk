@@ -125,7 +125,6 @@ vendor/huawei/g700/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so 
 vendor/huawei/g700/proprietary/lib/libMtkOmxWmaDec.so:system/lib/libMtkOmxWmaDec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxVorbisDec.so:system/lib/libMtkOmxVorbisDec.so \
 vendor/huawei/g700/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
-vendor/huawei/g700/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
 vendor/huawei/g700/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
 vendor/huawei/g700/proprietary/lib/libnativecheck-jni.so:system/lib/libnativecheck-jni.so \
 vendor/huawei/g700/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
